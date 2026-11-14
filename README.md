@@ -1,8 +1,10 @@
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.gif">
   <img alt="Terminal session: Simão Lopes — CTO, AI engineer, Porto. whoami, git log of his career, ls of projects, stack, contact." src="assets/terminal-light.gif">
 </picture>
+</p>
 
 **CTO** at a product company in Porto — I lead the team and I'm making the company AI-first.
 Before that: **Head of AI**, shipping a fleet of AI-powered microservices. Before that: a
