@@ -1,16 +1,17 @@
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.gif">
-  <img alt="Terminal session: Simão Lopes — CTO, AI engineer, Porto. whoami, git log of his career, ls of projects, stack, contact." src="assets/terminal-light.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.gif?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.gif?v=3">
+  <img alt="Terminal session: Simão Lopes — CTO, AI and data. Career log from Data Analyst through BI Team Lead, Product Owner and Product Manager at Leadzai to AI lead and CTO." src="assets/terminal-light.gif?v=3">
 </picture>
 </p>
 
-**CTO** at a product company in Porto — I lead the team and I'm making the company AI-first.
-Before that: **Head of AI**, shipping a fleet of AI-powered microservices. Before that: a
-**chatbot built alone**, six months in production. I care about the boring half — evals, cost per
-request, model swaps, whoever is on call at 2am.
+**CTO at a tech company** — team, product, and AI that actually ships. I take the boring half too:
+evals, cost per request, on-call, model swaps.
 
-**Open to** AI Lead / Head of AI / CTO conversations → [LinkedIn](https://www.linkedin.com/in/simao-lopes)
+Before that, at **Leadzai**, moving from **Data Analyst → BI Team Lead → Product Owner →
+Product Manager**. Eight thousand-plus ad campaigns analysed, ML models in Python, SQL and BigQuery,
+BI governance with real version control, and a Looker instance I deployed that is still used
+company-wide. Built a chatbot that is in production today.
 
-<sub>Python · Go · Rust · TypeScript · CUDA/sm_70 · llama.cpp · vLLM · SQLite · systemd · Tailscale</sub>
+The shapes that fit me: **AI Lead · Head of AI · CTO** — [LinkedIn](https://www.linkedin.com/in/simao-lopes)

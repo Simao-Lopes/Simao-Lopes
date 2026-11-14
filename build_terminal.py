@@ -32,33 +32,40 @@ FONTB = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold
 SESSION = [
     ("out", "Last login: today on ttys001", "dim"),
     ("cmd", "whoami"),
-    ("out", "Simão Lopes — CTO · AI engineer · Porto, PT", "fg"),
+    ("out", "Simão Lopes — CTO · AI · data", "fg"),
     ("pause", 6),
     ("cmd", "cat role.txt"),
-    ("out", "Lead the team. Make the company AI-first. Ship it, not slide it.", "fg"),
-    ("out", "Owning the boring half: evals, cost, on-call, model swaps.", "dim"),
+    ("out", "CTO at a tech company. Team, product, AI that ships.", "fg"),
+    ("out", "The boring half too: evals, cost, on-call, model swaps.", "dim"),
     ("pause", 8),
-    ("cmd", "git log --oneline --decorate"),
-    ("out", "* 9f1c0d3 (HEAD -> cto)   AI-first across product and ops", "accent"),
-    ("out", "* 4a7b2e1 (head-of-ai)    fleet of AI microservices", "fg"),
-    ("out", "* c1d5f80 (solo-build)    chatbot — 6 months in production", "fg"),
+    ("cmd", "git log --oneline --decorate --career"),
+    ("out", "* 7d3a901 (HEAD -> cto)      CTO · a tech company", "accent"),
+    ("out", "* 51b8e2c (ai-lead)          AI lead · chatbot in production", "accent"),
+    ("out", "* 0f6c4d7 (product-manager)  Product Manager · Leadzai", "fg"),
+    ("out", "* e2a91b5 (product-owner)    Product Owner · Leadzai", "fg"),
+    ("out", "* 9c47f13 (bi-team-lead)     BI Team Lead · Leadzai", "fg"),
+    ("out", "* 4b8d260 (data-analyst)     Data Analyst · Leadzai", "fg"),
+    ("pause", 10),
+    ("cmd", "cat impact.log"),
+    ("out", "8,000+ ad campaigns analysed — ML models in Python, SQL, BigQuery", "fg"),
+    ("out", "BI governance + version control · Looker deployed company-wide", "fg"),
+    ("out", "pilot experiments → lead-gen scaled for SMBs", "fg"),
+    ("out", "chatbot — currently in production", "prompt"),
+    ("pause", 10),
+    ("cmd", "cat stack.txt"),
+    ("out", "python · sql · bigquery · tableau · looker", "fg"),
     ("pause", 8),
-    ("cmd", "ls ~/projects"),
-    ("out", "hassius/      v100-engines/   nonius/", "link"),
-    ("out", "free-llm/     dev-farm/       games/ (44)", "link"),
-    ("pause", 8),
-    ("cmd", "cat stack.json"),
-    ("out", '"python","go","rust","typescript","cuda/sm70",', "fg"),
-    ("out", '"llama.cpp","vllm","sqlite","systemd","tailscale"', "fg"),
-    ("pause", 8),
-    ("cmd", 'contact --open-to "AI Lead · Head of AI · CTO"'),
-    ("out", "→ linkedin.com/in/simao-lopes", "prompt"),
-    ("pause", 12),
+    ("cmd", "ls ~/builds"),
+    ("out", "hassius/   v100-engines/   nonius/   dev-farm/   games/ (44)", "link"),
+    ("pause", 10),
+    ("cmd", "cat roles.txt"),
+    ("out", "# shapes that fit: AI Lead · Head of AI · CTO", "dim"),
+    ("pause", 16),
     ("out", "", "fg"),
-    ("out", "▌ready when you are.", "dim"),
+    ("out", "▌", "dim"),
 ]
 
-PROMPT = "simao@porto:~$ "
+PROMPT = "simao@dev:~$ "
 
 def wrap(line, width):
     return [line[i:i + width] for i in range(0, max(1, len(line)), width)]
@@ -79,7 +86,7 @@ def build_frames(theme):
         d.line([0, BAR, W, BAR], fill=c["edge"], width=1)
         for i, col in enumerate(("#ff5f57", "#febc2e", "#28c840")):
             d.ellipse([PAD + 2 + i * 18, BAR // 2 - 5, PAD + 12 + i * 18, BAR // 2 + 5], fill=col)
-        d.text((PAD + 66, BAR // 2 - 8), "simao@porto: ~ — zsh", font=FONT, fill=c["dim"])
+        d.text((PAD + 66, BAR // 2 - 8), "simao@dev: ~ — zsh", font=FONT, fill=c["dim"])
         d.rectangle([0, 0, W - 1, H - 1], outline=c["edge"], width=1)
 
         y = BAR + PAD
