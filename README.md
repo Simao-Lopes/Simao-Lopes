@@ -1,37 +1,16 @@
-<div align="center">
-
-<img src="assets/hero.svg" alt="Player 1 — Simão Lopes, CTO and AI engineer, Porto" width="100%">
-
-</div>
-
-**CTO** at a product company in Porto. I lead the engineering team and I'm turning the whole
-company AI-first — not with slide decks, with services in production.
-
-Before that I ran **Head of AI**, shipping a fleet of AI-powered microservices. Before that I built
-a **full chatbot alone** and put it live: six months in production, still running.
-
-I care about the boring half of AI: evals, cost per request, what happens at 2am, whether the thing
-still works when the model changes under you.
-
-<div align="center">
-
-<img src="assets/quests.svg" alt="Quest log — CTO, Head of AI, solo build" width="100%">
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
+  <img alt="Player 1 — Simão Lopes, CTO and AI lead in Porto: quest log (CTO, Head of AI, solo build) and inventory of projects" src="assets/profile-light.svg">
+</picture>
 
 ## ▸ Quest log
 
 | act | role | what shipped | status |
 | --- | --- | --- | --- |
-| **III** | **CTO** | Leading the team; making the company's products and internal tools AI-first. | `ACTIVE` |
-| **II** | **Head of AI** | A fleet of AI-powered microservices — design, infra, delivery. | `CLEARED` |
-| **I** | **Solo build** | End-to-end chatbot, built alone, in production for 6 months. | `LEGENDARY` |
-
-<div align="center">
-
-<img src="assets/inventory.svg" alt="Inventory — Hassius, v100_engines, nonius, free-llm-services, dev-farm, 44 games" width="100%">
-
-</div>
+| **III** | **CTO** | Leading the team, making products and internal tools AI-first. | `ACTIVE` |
+| **II** | **Head of AI** | A fleet of AI-powered microservices — design, infrastructure, delivery. | `CLEARED` |
+| **I** | **Solo build** | End-to-end chatbot, built alone, six months in production. | `LEGENDARY` |
 
 ## ▸ Inventory
 
@@ -44,16 +23,13 @@ still works when the model changes under you.
 | [dev-farm](https://github.com/Simao-Lopes/dev-farm) | `RARE` | Three Macs, one tailnet, code pods you can hand work to. |
 | [web-games-build](https://github.com/Simao-Lopes/web-games-build) | `RARE` | 44 self-contained HTML5 games, one file each. |
 
-## ▸ Stats
+## ▸ Stack
 
 ```
 LANGUAGES   Python · Go · Rust · TypeScript · SQL
 AI / INFRA  LLM serving (llama.cpp, vLLM) · CUDA/sm_70 · RAG · evals · agent runtimes · cost control
-PLATFORM    Linux · systemd · nginx · SQLite · Postgres · Tailscale · Docker
-LEADERSHIP  team lead · architecture · taking vague AI ideas to shipped services
+PLATFORM    Linux · systemd · nginx · SQLite · Postgres · Tailscale
+LEADERSHIP  team lead · architecture · vague AI idea → shipped service
 ```
 
-**Open to** AI Lead / Head of AI / CTO conversations — [LinkedIn](https://www.linkedin.com/in/simao-lopes)
-is the CV, this page is the highlight reel.
-
-<sub>Porto, Portugal · built, not generated for show</sub>
+**Open to** AI Lead / Head of AI / CTO conversations — [LinkedIn](https://www.linkedin.com/in/simao-lopes).
