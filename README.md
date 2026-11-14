@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
-  <img alt="Player 1 — Simão Lopes, CTO and AI lead in Porto: quest log (CTO, Head of AI, solo build) and inventory of projects" src="assets/profile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg?v=2">
+  <img alt="Player 1 — Simão Lopes, CTO and AI lead in Porto: quest log (CTO, Head of AI, solo build) and inventory of projects" src="assets/profile-light.svg?v=2">
 </picture>
 
 ## ▸ Quest log
