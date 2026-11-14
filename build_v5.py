@@ -68,8 +68,9 @@ def ptext(s, x, y, scale, fill, tracking=1):
     out, cx = [], x
     for ch in s:
         up = ch.upper()
-        if up in G:
-            for ry, row in enumerate(G[up]):
+        base = {"Ã": "A", "Õ": "O", "Á": "A", "É": "E", "Í": "I", "Ó": "O", "Ú": "U", "Ç": "C"}.get(up, up)
+        if base in G:
+            for ry, row in enumerate(G[base]):
                 c = 0
                 while c < 5:
                     if row[c] == "1":
@@ -80,7 +81,7 @@ def ptext(s, x, y, scale, fill, tracking=1):
                         c += run
                     else:
                         c += 1
-            if ch == "Ã":
+            if up in ("Ã", "Õ"):
                 for ry, row in enumerate(TILDE):
                     for c, bit in enumerate(row):
                         if bit == "1":
